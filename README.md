@@ -9,10 +9,10 @@
 <img src="https://img.shields.io/badge/python-3.6-blue.svg" alt="Python: 3.6">
 
 <!-- inprogress or completed -->
-<img src="https://img.shields.io/badge/-completed-green" alt="completed">
+<!-- <img src="https://img.shields.io/badge/-completed-green" alt="completed"> -->
 	
 <!-- inprogress or completed -->
-<!-- <img src="https://img.shields.io/badge/-in%20progress-red" alt="in progress"> -->
+<img src="https://img.shields.io/badge/-in%20progress-red" alt="in progress">
 	
 <!-- licence -->
 <a href="https://github.com/ftamur/iOSPencilKitDrawApp/blob/main/LICENSE">
