@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
 </a>
 
-<!-- inprogress or completed -->
+<!-- week of year -->
 <img src="https://img.shields.io/badge/week-29-green" alt="in progress">
 	
 </p>
