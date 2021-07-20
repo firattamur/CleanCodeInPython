@@ -10,7 +10,7 @@
 
 <!-- inprogress or completed -->
 <!-- <img src="https://img.shields.io/badge/-completed-green" alt="completed"> -->
-	
+
 <!-- inprogress or completed -->
 <img src="https://img.shields.io/badge/-in%20progress-red" alt="in progress">
 	
@@ -19,6 +19,9 @@
 <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg" alt="License: MIT">
 </a>
 
+<!-- inprogress or completed -->
+<img src="https://img.shields.io/badge/week-29-green" alt="in progress">
+	
 </p>
 
 <h4 align="center">
