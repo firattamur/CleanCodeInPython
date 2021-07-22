@@ -45,6 +45,21 @@
 	Chapter - 1: Clean Code
 </h3><hr>
 
+
+* There will always be code!
+* Bad code can bring down a successful app!
+* Rushing to code usually ends up with bad code!
+* Later means never. Instead of rushing to code, write clean code at the beginning!
+* Without clean code, productivity decreases, and complexity of program increases over time!
+* Write clean code even with a limited schedule. Defend the code! 
+* Acquire "code-sense". Programmers with "code-sense" see options and alternatives when they encounter messy code. 
+* "The logic should be straightforward to make it hard for bugs to hide.", **Bjarne Stroustrup**
+* "Clean code does one thing well!",  **Bjarne Stroustrup**
+* Bad code tries to do too much!
+* "Clean code reads like well-written prose!", **Grady Booch**
+* "Clean code can be read, and enhanced by a developer other than its original author. It has unit and acceptance tests.", **Dave Thomas**
+* "Clean code always looks like it was written by someone who cares.", **Michael Feathers**
+
 <h3>
 	Chapter - 2: Meaningful Names
 </h3><hr>
