@@ -1,5 +1,5 @@
 <h3 align="center">
-	Clean Code in Python
+Clean Code in Python
 </h3>
 
 <!-- badges -->
@@ -24,6 +24,11 @@
 	
 </p>
 
+<div align="center">
+	<img src="https://mk0osnewswb2dmu4h0a.kinstacdn.com/images/comics/wtfm.jpg"></img>
+</div>
+
+
 <h4 align="center">
 	Short Notes and Examples from Clean Code Book in Python
 </h4><hr>
@@ -45,7 +50,6 @@
 	Chapter - 1: Clean Code
 </h3><hr>
 
-
 * There will always be code!
 * Bad code can bring down a successful app!
 * Rushing to code usually ends up with bad code!
@@ -63,6 +67,81 @@
 <h3>
 	Chapter - 2: Meaningful Names
 </h3><hr>
+
+* Use intention-revealing names. If a variable need comments to explain its purpose then it doesn't have a good name!
+* Change names when you find a better one!
+```python
+# bad code:
+c = 0 # counter to keep number of passengers
+
+# clean code:
+passengerCount = 0
+```
+
+* Use informative names!
+
+```python
+# bad code:
+theList = list()
+
+# clean code:
+passengers = list()
+```
+
+* Avoid disinformation! 
+
+```python
+# Do not use List in a name if it is not actually a member of List datatype. 
+# bad code:
+passengerList = set()
+
+# clean code:
+passengersSet = set()
+```
+
+* Do not use very similar names! You may use wrong name if you use autocomplete in your IDE. 
+
+```python
+# bad code:
+def getDataFromAPIAndCreateUser():
+    pass
+
+def getDataFromAPIAndCreateUsers():
+    pass
+
+# clean code:
+def getDataFromAPIAndCreateSingleUser():
+    pass
+
+def getDataFromAPIAndCreateMultipleUsers():
+    pass
+```
+
+* Do not use single letters which look very similar digits. 
+
+```python
+# bad code:
+# letter 'l' very similar to digit '1'
+# letter 'O' very similar to digit 0
+for l, O in enumerate(passengers):
+    print(l, O)
+
+# clean code:
+for i, p in enumerate(passengers):
+    print(i, p)
+```
+
+* Make meaningful distinctions. Number series naming is wrong type of naming. 
+
+```python
+# bad code:
+def clone(a1, a2):
+    pass
+
+# clean code:
+def clone(source, destination):
+    pass
+```
 
 <h3>
 	Chapter - 3: Functions
