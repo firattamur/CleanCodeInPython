@@ -143,6 +143,77 @@ def clone(source, destination):
     pass
 ```
 
+* Noise words are redundant. For example, the **variable** word should never appear in a variable name. 
+
+```python
+# bad code:
+counterVariable = 0
+nameString = "python"
+
+# clean code:
+counter = 0
+name = "python"
+```
+
+* Programming is a social activity. So make your names pronounceable!
+
+```python
+from datetime import date
+
+# bad code:
+genymdhms = date.today() # generation date, year, month, day, hour, minute, and second.
+
+# clean code:
+generationTimeStamp = date.today()
+```
+
+* Use searchable names! Single-letter names and numeric constants may be problem when you need to search them in the code. 
+
+```python
+# bad code:
+# here letters n, m may be in many lines 
+# also numeric constants 10, 10000 may be hard to find when seach in the code. 
+n = 10 
+m = 10000
+
+# clean code:
+numberOfStudents = INITIAL_NUMBER_OF_STUDENTS
+maxNumberOfStudents = MAX_NUMBER_OF_STUDENTS
+```
+
+* Single-letter names should be used only as local variables inside short methods. 
+* The length of a name should correspond to the size of its scope. 
+* Avoid mental mapping. Single-letter names for loop counters like i, j, and k are traditional and there is no problem to use them if scope is small and there is no other name conflict with them. 
+* The difference between smart programmer and professional one is that the professional understands that **clarity is king**.
+* Class and objects should have noun or noun phrase names like Customer, WikiPage, Account. Avoid words like Manager, Processor and Data. 
+* A class name should not be a verb!
+* If a constructor of a class overloaded, use static factory methods with names that describe the arguments. 
+
+```python
+# bad code:
+jsonParser = DataParser(JSONObject)
+xmlParser = DataParser(XMLObject)
+
+# clean code:
+jsonParser = DataParser.parserForJSON(JSONArgs)
+xmlParser = DataParser.parserForXML(XMLArgs)
+```
+
+* Don't try to be cute. **Say what you mean. Mean what you say!**
+
+```python
+# bad code:
+passengerList.HolyHandGrenade() # it's cute but who needs it. 
+
+# clean code:
+passengerList.deleteAllItems()
+```
+
+* Pick one word and for one abstract concept and stick with it. It will be confusing using different words for same methods in difference classes. For example, **fetch**, **retrieve** and **get** all mean same thing, but do not use all together in your code!
+
+* Most of time the people who read your code will be programmers. So you can use computer science terms in your naming. 
+* Shorter names are generally better than longer ones, so long as they are clear. 
+
 <h3>
 	Chapter - 3: Functions
 </h3><hr>
