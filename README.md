@@ -218,6 +218,15 @@ passengerList.deleteAllItems()
 	Chapter - 3: Functions
 </h3><hr>
 
+- **Small!!!** The most important rule for functions is that functions must be small!
+- Functions should hardly ever be 20 lines long!
+- The indent level of function should not be greater than one or two!
+- **Do One Thing**. Functions should do one thing. They should do it well, they should do it only!
+- All statements in a function must have **same level of abstraction**!
+- Following **The Stepdown Rule** helps to keep abstraction level consistent!
+- If you can divide a function to sections, that function does more than one thing!
+- **Switch Statements**
+
 <h3>
 	References:
 </h3><hr>
